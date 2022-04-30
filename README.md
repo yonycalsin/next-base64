@@ -2,7 +2,7 @@
 
 `next-base64` is a library for `client-side` and `server-side` base64 encoding and decoding
 
-[![CI](https://github.com/yonycalsin/next-base64/actions/workflows/ci.yml/badge.svg)](https://github.com/yonycalsin/next-base64/actions/workflows/ci.yml)
+[![CI](https://github.com/yonycalsin/next-base64/actions/workflows/main.yml/badge.svg)](https://github.com/yonycalsin/next-base64/actions/workflows/ci.yml)
 <a href="https://github.com/yonycalsin/next-base64"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
 <a href="https://www.npmjs.com/next-base64" target="_blank">
 <img src="https://img.shields.io/npm/v/next-base64" alt="NPM Version" /></a>
