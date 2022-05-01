@@ -5,7 +5,7 @@
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
-   ],
+  ],
   "engines": {
     "node": ">=10"
   },
@@ -16,7 +16,8 @@
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
-    "analyze": "size-limit --why"
+    "analyze": "size-limit --why",
+    "semantic-release": "semantic-release"
   },
   "peerDependencies": {},
   "husky": {
@@ -46,6 +47,7 @@
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",
     "husky": "^7.0.4",
+    "semantic-release": "^19.0.2",
     "size-limit": "^7.0.8",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
@@ -57,5 +59,8 @@
   "homepage": "https://github.com/yonycalsin/next-base64#readme",
   "bugs": {
     "url": "https://github.com/yonycalsin/next-base64/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
