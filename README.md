@@ -2,7 +2,7 @@
 
 `next-base64` is a library for `client-side` and `server-side` base64 encoding and decoding
 
-[![CI](https://github.com/yonycalsin/next-base64/actions/workflows/main.yml/badge.svg)](https://github.com/yonycalsin/next-base64/actions/workflows/ci.yml)
+[![CI](https://github.com/yonycalsin/next-base64/actions/workflows/main.yml/badge.svg)](https://github.com/yonycalsin/next-base64/actions/workflows/main.yml)
 <a href="https://github.com/yonycalsin/next-base64"><img src="https://img.shields.io/spiget/stars/1000?color=brightgreen&label=Star&logo=github" /></a>
 <a href="https://www.npmjs.com/next-base64" target="_blank">
 <img src="https://img.shields.io/npm/v/next-base64" alt="NPM Version" /></a>
@@ -27,7 +27,6 @@ yarn add next-base64@latest
 
 ## Usage
 
-
 ```ts
 import nextBase64 from 'next-base64';
 
@@ -36,8 +35,8 @@ const base64Encoded = nextBase64.encode('Hello World');
 const base64decoded = nextBase64.decode(base64Encoded);
 
 // result
-console.log(base64Encoded) // 'SGVsbG8gV29ybGQ='
-console.log(base64decoded) // 'Hello World'
+console.log(base64Encoded); // 'SGVsbG8gV29ybGQ='
+console.log(base64decoded); // 'Hello World'
 ```
 
 ## Stay in touch
