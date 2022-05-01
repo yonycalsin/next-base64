@@ -19,8 +19,8 @@ jobs:
         with:
           node-version: 14.17.0
 
-      - name: Install deps and build (with cache)
-        uses: bahmutov/npm-install@v1
+      - name: Install deps and build
+        run: yarn install --frozen-lockfile
 
       - name: Release
         env:
