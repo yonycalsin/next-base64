@@ -1,7 +1,12 @@
-export const sum = (a: number, b: number) => {
-  if ('development' === process.env.NODE_ENV) {
-    console.log('boop');
-  }
+import * as browser from './base64-browser';
+import * as server from './base64-server';
 
-  return a + b;
-};
+const nextBase64 = typeof window === 'undefined' ? server : browser;
+
+const decode = nextBase64.decode;
+
+const encode = nextBase64.encode;
+
+export { decode, encode };
+
+export default nextBase64;
