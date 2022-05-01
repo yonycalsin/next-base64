@@ -1,7 +1,11 @@
-import { sum } from '../src';
+import { decode, encode } from '../src';
 
 describe('blah', () => {
-  it('works', () => {
-    expect(sum(1, 1)).toEqual(2);
+  it('decode', () => {
+    expect(decode('YWJj')).toBe('abc');
+  });
+
+  it('encode', () => {
+    expect(encode('abc')).toBe('YWJj');
   });
 });
