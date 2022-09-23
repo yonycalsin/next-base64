@@ -1,6 +1,6 @@
 import { decode, encode } from '../src';
 
-describe('blah', () => {
+describe('base64', () => {
   it('decode', () => {
     expect(decode('YWJj')).toBe('abc');
   });
