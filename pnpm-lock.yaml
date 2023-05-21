@@ -4,6 +4,9 @@ devDependencies:
   '@size-limit/preset-small-lib':
     specifier: ^7.0.8
     version: 7.0.8(size-limit@7.0.8)
+  '@types/node':
+    specifier: 20.2.1
+    version: 20.2.1
   husky:
     specifier: ^7.0.4
     version: 7.0.4
@@ -15,7 +18,7 @@ devDependencies:
     version: 7.0.8
   tsdx:
     specifier: ^0.14.1
-    version: 0.14.1
+    version: 0.14.1(@types/node@20.2.1)
   tslib:
     specifier: ^2.4.0
     version: 2.4.0
@@ -7166,7 +7169,7 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-sourcemaps@0.6.3(rollup@1.32.1):
+  /rollup-plugin-sourcemaps@0.6.3(@types/node@20.2.1)(rollup@1.32.1):
     resolution: {integrity: sha512-paFu+nT1xvuO1tPFYXGe+XnQvg4Hjqv/eIhG8i5EspfYYPBKL57X7iVbfv55aNVASg3dzWvES9dmWsL2KhfByw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -7177,6 +7180,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 3.1.0(rollup@1.32.1)
+      '@types/node': 20.2.1
       rollup: 1.32.1
       source-map-resolve: 0.6.0
     dev: true
@@ -8070,7 +8074,7 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsdx@0.14.1:
+  /tsdx@0.14.1(@types/node@20.2.1):
     resolution: {integrity: sha512-keHmFdCL2kx5nYFlBdbE3639HQ2v9iGedAFAajobrUTH2wfX0nLPdDhbHv+GHLQZqf0c5ur1XteE8ek/+Eyj5w==}
     engines: {node: '>=10'}
     hasBin: true
@@ -8121,7 +8125,7 @@ packages:
       progress-estimator: 0.2.2
       regenerator-runtime: 0.13.11
       rollup: 1.32.1
-      rollup-plugin-sourcemaps: 0.6.3(rollup@1.32.1)
+      rollup-plugin-sourcemaps: 0.6.3(@types/node@20.2.1)(rollup@1.32.1)
       rollup-plugin-terser: 5.3.1(rollup@1.32.1)
       rollup-plugin-typescript2: 0.27.3(rollup@1.32.1)(typescript@3.9.10)
       sade: 1.8.1
