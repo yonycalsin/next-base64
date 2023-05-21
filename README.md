@@ -23,6 +23,9 @@ npm install --save next-base64@latest
 
 # Using yarn
 yarn add next-base64@latest
+
+# Using pnpm
+pnpm add next-base64@latest
 ```
 
 ## Usage
