@@ -12,8 +12,6 @@
 <img src="https://img.shields.io/npm/dm/next-base64" alt="NPM Downloads" /></a>
 <a href="https://github.com/yonycalsin/next-base64"><img src="https://img.shields.io/badge/Github%20Page-next.base64-yellow?style=flat-square&logo=github" /></a>
 <a href="https://github.com/yonycalsin"><img src="https://img.shields.io/badge/Author-Yony%20Calsin-blueviolet?style=flat-square&logo=appveyor" /></a>
-<a href="https://twitter.com/yonycalsin" target="_blank">
-<img src="https://img.shields.io/twitter/follow/yonycalsin.svg?style=social&label=Follow"></a>
 
 ## Installation
 
@@ -38,15 +36,6 @@ const base64decoded = nextBase64.decode(base64Encoded);
 console.log(base64Encoded); // 'SGVsbG8gV29ybGQ='
 console.log(base64decoded); // 'Hello World'
 ```
-
-## Stay in touch
-
-- Github [@yonycalsin](https://github.com/yonycalsin)
-- Twitter [@yonycalsin](https://twitter.com/yonycalsin)
-
-## Contributors
-
-Thanks to the wonderful people who collaborate with me !
 
 ## License
 
